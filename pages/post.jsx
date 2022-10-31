@@ -61,7 +61,7 @@ export default function Post() {
           <textarea
             value={post.description}
             onChange={(e) => setPost({ ...post, description: e.target.value })}
-            className="bg-gray-200 outline-none text-black focus:border-2 focus:border-purple-500 h-48 w-full text-white rounded-lg p-2 text-sm"
+            className="bg-gray-200 outline-none text-black focus:border-2 focus:border-purple-500 h-48 w-full rounded-lg p-2 text-sm"
           ></textarea>
           <p
             className={`text-cyan-600 font-medium text-sm ${
